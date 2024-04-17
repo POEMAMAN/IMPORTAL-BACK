@@ -18,3 +18,5 @@ videoGamesTerminatorRoutes.put('/edit/:id', upload.single('image'), [isAuth], pu
 videoGamesTerminatorRoutes.delete('/delete/:id', [isAuth], deleteVideoGameTerminator);
 
 module.exports = videoGamesTerminatorRoutes;
+
+
