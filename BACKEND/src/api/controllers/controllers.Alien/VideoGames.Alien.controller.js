@@ -61,3 +61,5 @@ const deleteVideoGameAlien = async (req, res) => {
 };
 
 module.exports = { getVideoGamesAlien, getOneVideoGameAlien, postVideoGameAlien, putVideoGameAlien, deleteVideoGameAlien };
+
+
