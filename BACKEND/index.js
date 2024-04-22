@@ -113,9 +113,9 @@ const charactersTerminatorRoutes = require("./src/api/routes/routes.Terminator/c
 const moviesTerminatorRoutes = require("./src/api/routes/routes.Terminator/movies.Terminator.routes");
 
 // Xmen
-const videoGamesXmenRoutes = require("./src/api/routes/routes.Xmen/videoGames.Xmen.routes");
-const charactersXmenRoutes = require("./src/api/routes/routes.Xmen/characters.Xmen.routes");
-const moviesXmenRoutes = require("./src/api/routes/routes.Xmen/movies.Xmen.routes");
+// const videoGamesXmenRoutes = require("./src/api/routes/routes.Xmen/videoGames.Xmen.routes");
+// const charactersXmenRoutes = require("./src/api/routes/routes.Xmen/characters.Xmen.routes");
+// const moviesXmenRoutes = require("./src/api/routes/routes.Xmen/movies.Xmen.routes");
 
 //Chat
 const chatRoutes = require("./src/api/chat/chat.routes.js");
@@ -260,9 +260,9 @@ app.use("/universes/terminator/characters", charactersTerminatorRoutes)
 app.use("/universes/terminator/movies", moviesTerminatorRoutes)
 
 // Xmen
-app.use("/universes/Xmen/videoGames", videoGamesXmenRoutes)
-app.use("/universes/Xmen/characters", charactersXmenRoutes)
-app.use("/universes/Xmen/movies", moviesXmenRoutes)
+// app.use("/universes/Xmen/videoGames", videoGamesXmenRoutes)
+// app.use("/universes/Xmen/characters", charactersXmenRoutes)
+// app.use("/universes/Xmen/movies", moviesXmenRoutes)
 
 //Chat
 app.use("/chat", chatRoutes)
