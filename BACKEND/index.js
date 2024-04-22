@@ -148,6 +148,10 @@ app.use(
         origin: ["*"],
     })
 );
+//Gestion error favicon
+app.get('/BACKEND/favicon.ico', (req, res) => {
+  res.sendFile(__dirname + '/BACKEND/favicon.ico');
+});
 
 
 
