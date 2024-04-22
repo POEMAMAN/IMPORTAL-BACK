@@ -32,8 +32,8 @@ const moviesBackToTheFutureRoutes = require("./src/api/routes/routes.BackToTheFu
 
 // Blade
 // const videoGamesBladeRoutes = require("./src/api/routes/routes.Blade/videoGames.Blade.routes.js");
-const charactersBladeRoutes = require("./src/api/routes/routes.Blade/characters.Blade.routes.js");
-const moviesBladeRoutes = require("./src/api/routes/routes.Blade/movies.Blade.routes.js");
+// const charactersBladeRoutes = require("./src/api/routes/routes.Blade/characters.Blade.routes.js");
+// const moviesBladeRoutes = require("./src/api/routes/routes.Blade/movies.Blade.routes.js");
 
 // Crepusculo
 const booksCrepusculoRoutes = require("./src/api/routes/routes.Crepusculo/books.Crepusculo.routes");
@@ -178,8 +178,8 @@ app.use("/universes/BackToTheFuture/movies", moviesBackToTheFutureRoutes)
 
 // Blade
 // app.use("/universes/Blade/videoGames", videoGamesBladeRoutes)
-app.use("/universes/Blade/characters", charactersBladeRoutes)
-app.use("/universes/Blade/movies", moviesBladeRoutes)
+// app.use("/universes/Blade/characters", charactersBladeRoutes)
+// app.use("/universes/Blade/movies", moviesBladeRoutes)
 
 // Dune
 app.use("/universes/dune/books", booksDuneRoutes)
