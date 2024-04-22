@@ -73,9 +73,9 @@ const charactersLordOfTheRingsRoutes = require("./src/api/routes/routes.LordOfTh
 const moviesLordOfTheRingsRoutes = require("./src/api/routes/routes.LordOfTheRings/movies.LordOfTheRings.routes");
 
 // Matrix
-const charactersMatrixRoutes = require("./src/api/routes/routes.Matrix/characters.Matrix.routes.js");
-const moviesMatrixRoutes = require("./src/api/routes/routes.Matrix/movies.Matrix.routes");
-const videoGamesMatrixRoutes = require("./src/api/routes/routes.Matrix/videoGames.Matrix.routes.js");
+// const charactersMatrixRoutes = require("./src/api/routes/routes.Matrix/characters.Matrix.routes.js");
+// const moviesMatrixRoutes = require("./src/api/routes/routes.Matrix/movies.Matrix.routes");
+// const videoGamesMatrixRoutes = require("./src/api/routes/routes.Matrix/videoGames.Matrix.routes.js");
 
 // MissionImposible
 const charactersMissionImposibleRoutes = require("./src/api/routes/routes.MissionImposible/characters.MissionImposible.routes.js");
@@ -219,9 +219,9 @@ app.use("/universes/JurassicPark/characters", charactersJurassicParkRoutes)
 app.use("/universes/JurassicPark/movies", moviesJurassicParkRoutes)
 
 // Matrix
-app.use("/universes/Matrix/characters", charactersMatrixRoutes)
-app.use("/universes/Matrix/movies", moviesMatrixRoutes)
-app.use("/universes/Matrix/videoGames", videoGamesMatrixRoutes)
+// app.use("/universes/Matrix/characters", charactersMatrixRoutes)
+// app.use("/universes/Matrix/movies", moviesMatrixRoutes)
+// app.use("/universes/Matrix/videoGames", videoGamesMatrixRoutes)
 
 
 // MissionImposible
