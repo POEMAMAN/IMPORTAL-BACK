@@ -149,8 +149,11 @@ app.use(
     })
 );
 //Gestion error favicon
-app.get('/BACKEND/favicon.ico', (req, res) => {
-  res.sendFile(__dirname + '/BACKEND/favicon.ico');
+app.use(express.static('public'));
+
+// Ruta para servir el favicon
+app.get('/BACKEND/public/favicon.ico', (req, res) => {
+  res.sendFile(__dirname + '/BACKEND/public/favicon.png');
 });
 
 
