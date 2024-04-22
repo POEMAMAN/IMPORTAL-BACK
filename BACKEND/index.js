@@ -138,7 +138,7 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, PATCH");
     res.header("Access-Control-Allow-Credentials", true);
     res.header("Access-Control-Allow-Headers", "Content-Type");
-    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Origin", "importal-hub-back-a54zucve2-inmortal-hubs-projects.vercel.app");
     next();
 });
 
