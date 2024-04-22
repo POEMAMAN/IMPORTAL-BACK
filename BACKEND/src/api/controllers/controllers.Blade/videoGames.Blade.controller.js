@@ -1,4 +1,4 @@
-const VideoGamesBlade = require('../../models/models.Blade/videoGames.Blade.model');
+const VideoGamesBlade = require('../../models/models.Blade/videoGames.blade.model');
 
 const getVideoGamesBlade = async (req, res) => {
   try {
