@@ -83,9 +83,9 @@ const moviesLordOfTheRingsRoutes = require("./src/api/routes/routes.LordOfTheRin
 // const videoGamesMissionImposibleRoutes = require("./src/api/routes/routes.MissionImposible/videoGames.MissionImposible.routes.js");
 
 // ResidentEvil
-const videoGamesresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/videoGames.residentEvil.routes");
-const charactersresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/characters.residentEvil.routes");
-const moviesresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/movies.residentEvil.routes");
+// const videoGamesresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/videoGames.residentEvil.routes");
+// const charactersresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/characters.residentEvil.routes");
+// const moviesresidentEvilRoutes = require("./src/api/routes/routes.residentEvil/movies.residentEvil.routes");
 
 // StarTrek
 const booksStarTrekRoutes = require("./src/api/routes/routes.StarTrek/books.StarTrek.routes");
@@ -230,9 +230,9 @@ app.use("/universes/JurassicPark/movies", moviesJurassicParkRoutes)
 // app.use("/universes/MissionImposible/videoGames", videoGamesMissionImposibleRoutes)
 
 // ResidentEvil
-app.use("/universes/residentEvil/videoGames", videoGamesresidentEvilRoutes)
-app.use("/universes/residentEvil/characters", charactersresidentEvilRoutes)
-app.use("/universes/residentEvil/movies", moviesresidentEvilRoutes)
+// app.use("/universes/residentEvil/videoGames", videoGamesresidentEvilRoutes)
+// app.use("/universes/residentEvil/characters", charactersresidentEvilRoutes)
+// app.use("/universes/residentEvil/movies", moviesresidentEvilRoutes)
 
 // StarTrek
 app.use("/universes/StarTrek/books", booksStarTrekRoutes)
