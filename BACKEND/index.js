@@ -41,9 +41,9 @@ const charactersCrepusculoRoutes = require("./src/api/routes/routes.Crepusculo/c
 const moviesCrepusculoRoutes = require("./src/api/routes/routes.Crepusculo/movies.Crepusculo.routes");
 
 // Dune
-const booksDuneRoutes = require("./src/api/routes/routes.dune/books.dune.routes");
-const charactersDuneRoutes = require("./src/api/routes/routes.dune/characters.dune.routes");
-const moviesDuneRoutes = require("./src/api/routes/routes.Dune/movies.Dune.routes.js");
+// const booksDuneRoutes = require("./src/api/routes/routes.dune/books.dune.routes");
+// const charactersDuneRoutes = require("./src/api/routes/routes.dune/characters.dune.routes");
+// const moviesDuneRoutes = require("./src/api/routes/routes.Dune/movies.Dune.routes.js");
 // const countriesDuneRoutes = require("./src/api/routes/routes.dune/countries.dune.routes");
 // const planetsDuneRoutes = require("./src/api/routes/routes.Dune/planets.Dune.routes.js");
 
@@ -182,11 +182,11 @@ app.use("/universes/BackToTheFuture/movies", moviesBackToTheFutureRoutes)
 // app.use("/universes/Blade/movies", moviesBladeRoutes)
 
 // Dune
-app.use("/universes/dune/books", booksDuneRoutes)
-app.use("/universes/dune/characters", charactersDuneRoutes)
+// app.use("/universes/dune/books", booksDuneRoutes)
+// app.use("/universes/dune/characters", charactersDuneRoutes)
     // app.use("/universes/dune/planets", planetsDuneRoutes)
     // app.use("/universes/dune/countries", countriesDuneRoutes)
-app.use("/universes/dune/movies", moviesDuneRoutes)
+// app.use("/universes/dune/movies", moviesDuneRoutes)
 
 // HarryPotter
 app.use("/universes/HarryPotter/books", booksHarryPotterRoutes)
